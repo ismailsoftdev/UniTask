@@ -61,7 +61,7 @@ class UDeviceUtilities {
   }
 
   // get app bar height
-  static double getAppBarHeight(BuildContext context) {
+  static double getAppBarHeight() {
     return kTextTabBarHeight;
   }
 

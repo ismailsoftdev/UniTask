@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:unitask/features/authentication/screens/onboarding.dart';
 import 'package:unitask/utils/theme/theme.dart';
 
 /// -- Use this class to setup themes, initial bindings, any animation and much more
@@ -14,7 +15,7 @@ class App extends StatelessWidget {
       darkTheme: UAppTheme.darkTheme,
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        body: Container(),
+        body: OnBoardingScreen(),
       ),
     );
   }

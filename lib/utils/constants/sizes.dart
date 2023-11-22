@@ -30,8 +30,8 @@ class USizes {
 
   // Default Space between sections
   static const double defaultSpace = 24.0;
-  static const double spaceBTWItems = 16.0;
-  static const double spaceBTWSections = 32.0;
+  static const double spaceBtwItems = 16.0;
+  static const double spaceBtwSections = 32.0;
 
   // Border Radius
   static const double borderRadiusSm = 4.0;
@@ -54,7 +54,6 @@ class USizes {
 
   // Loading Indicator
   static const double loadingIndicatorSize = 36.0;
-
 
   // Grid view spacing
   static const gridviewSpacing = 16.0;

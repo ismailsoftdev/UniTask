@@ -36,6 +36,7 @@ dependencies:
   logger: ^2.0.2+1
   url_launcher: ^6.2.1
   intl: ^0.18.1
+  get: ^4.6.6
 
   # Icons packages
   iconsax: ^0.0.8

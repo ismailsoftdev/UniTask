@@ -9,4 +9,9 @@ class UImages {
   // -- App Icons
   static const String darkAppIcon = 'assets/icons/dark_app_icon.png';
   static const String lightAppIcon = 'assets/icons/light_app_icon.png';
+
+  // Onboarding
+  static const String onboarding1 = 'assets/images/onboarding_1.png';
+  static const String onboarding2 = 'assets/images/onboarding_2.png';
+  static const String onboarding3 = 'assets/images/onboarding_3.png';
 }
