@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:iconsax/iconsax.dart';
 import 'package:unitask/common/styles/spacing_styles.dart';
 import 'package:unitask/features/authentication/screens/login.dart';
-import 'package:unitask/utils/constants/colors.dart';
 import 'package:unitask/utils/constants/image_settings.dart';
 import 'package:unitask/utils/constants/sizes.dart';
 import 'package:unitask/utils/constants/text_strings.dart';

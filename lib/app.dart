@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:unitask/features/authentication/screens/login.dart';
 import 'package:unitask/features/authentication/screens/onboarding.dart';
 import 'package:unitask/utils/theme/theme.dart';
 
