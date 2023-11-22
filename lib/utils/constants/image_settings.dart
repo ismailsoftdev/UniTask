@@ -7,8 +7,8 @@ class UImages {
   static const String lightAppLogo = 'assets/logos/light_app_logo.png';
 
   // -- App Icons
-  static const String darkAppIcon = 'assets/icons/dark_app_icon.png';
-  static const String lightAppIcon = 'assets/icons/light_app_icon.png';
+  static const String darkAppIcon = 'assets/logos/dark_app_icon.png';
+  static const String lightAppIcon = 'assets/logos/light_app_icon.png';
 
   // Onboarding
   static const String onboarding1 = 'assets/images/onboarding_1.png';

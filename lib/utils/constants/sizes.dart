@@ -43,7 +43,7 @@ class USizes {
 
   // Input field
   static const inputFileRadius = 12.0;
-  static const spaceBTWInputFields = 16.0;
+  static const spaceBtwInputFields = 16.0;
 
   // Card Sizes
   static const double cardRadiusLg = 16.0;
