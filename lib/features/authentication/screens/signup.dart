@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:iconsax/iconsax.dart';
 import 'package:unitask/common/styles/spacing_styles.dart';
+import 'package:unitask/features/authentication/screens/login.dart';
+import 'package:unitask/utils/constants/colors.dart';
 import 'package:unitask/utils/constants/image_settings.dart';
 import 'package:unitask/utils/constants/sizes.dart';
 import 'package:unitask/utils/constants/text_strings.dart';
@@ -131,7 +133,18 @@ class SignUpScreen extends StatelessWidget {
                       SizedBox(
                         width: double.infinity,
                         child: TextButton(
-                          onPressed: () {},
+                          onPressed: () {
+                            //open the login screen
+                            Navigator.pop(context);
+                            Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                builder: (context) {
+                                  return const LoginScreen();
+                                },
+                              ),
+                            );
+                          },
                           child: const Text(UTexts.login),
                         ),
                       ),
